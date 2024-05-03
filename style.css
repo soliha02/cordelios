@@ -1,0 +1,27 @@
+
+.otaDiv{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}    
+.child{
+    background-color: red;
+    width: 30%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:992px){
+    .otaDiv{
+        background-color: blue;
+    }
+    .child{
+        width: 45%;
+        background-color: green;
+    }
+}
